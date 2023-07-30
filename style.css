@@ -1,14 +1,28 @@
 header{
     border-style: double;
     background-color: white;
-    align-self: center;
-    
+    align-self: center; 
+}
+
+form{
+    display: ;
+    justify-content: center;
+    padding: 20px;
+}
+
+br{
+padding-right: 20px;
+}
+
+#submit:hover{
+    color: green;
 }
 
 nav{
     text-align: right;
     font-size: 30px;
 }
+
 a{
     color: black;
     font-size: 30px;
@@ -42,14 +56,20 @@ body{
     margin-bottom: 0px;
     border-style: double;
 }
+
 .box{
     display: flex;
     align-items: top;
 }
+
 p{
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
 }
-.project
+
+input:hover{
+    border-style: groove;
+    border-radius: 20px;
+}
